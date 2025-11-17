@@ -33,8 +33,10 @@
             // 
             // textBoxPassword1
             // 
-            this.textBoxPassword1.Location = new System.Drawing.Point(94, 84);
+            this.textBoxPassword1.Location = new System.Drawing.Point(79, 109);
+            this.textBoxPassword1.MaximoCaracteres = 32767;
             this.textBoxPassword1.Name = "textBoxPassword1";
+            this.textBoxPassword1.ProhibirEspacios = true;
             this.textBoxPassword1.Size = new System.Drawing.Size(200, 26);
             this.textBoxPassword1.TabIndex = 0;
             // 
